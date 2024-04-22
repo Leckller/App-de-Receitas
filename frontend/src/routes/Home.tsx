@@ -1,10 +1,10 @@
 
 function Home() {
   return (
-    <div>
-
-    </div>
+    <main className="h-[80%]">
+      recipes
+    </main>
   )
 }
 
-export default Home
+export default Home;
