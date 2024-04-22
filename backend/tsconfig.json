@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
-    "rootDir": "./",
+    "rootDir": "./src",
     "outDir": "./build",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -11,13 +11,10 @@
     "skipLibCheck": true
   },
   "include": [
-    "src/**/*",
-    "tests"
+    "src/**/*"
   ],
   "exclude": [
     "build",
-    "node_modules",
-    ".nyc_output",
-    "src/database"
+    "node_modules"
   ]
 }
